@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editTextNumDisks"
+        android:textSize="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:hint="Enter number of disks"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnStartGame"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextNumDisks"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:textSize="30dp"
+        android:text="Start Game" />
+
+    <Button
+        android:id="@+id/btnGoHome"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextNumDisks"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="80dp"
+        android:text="Go home"
+        android:textSize="30dp" />
+
+</RelativeLayout>

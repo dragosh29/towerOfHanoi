@@ -1,0 +1,86 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:layout_gravity="top"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp">
+
+        <!-- Move Counter TextView -->
+        <TextView
+            android:id="@+id/moveCounterTextView"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:text="Moves: 0"
+            android:textSize="20sp"
+            android:layout_marginStart="15dp"
+            android:layout_gravity="start|center_vertical"
+            android:textColor="#000"/>
+
+        <Button
+            android:id="@+id/btnGoBack"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="80dp"
+            android:layout_gravity="end|center_vertical"
+            android:text="Go back"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <!-- Background Layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/in_game_background">
+
+        <!-- Towers Layout -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginBottom="20dp">
+
+            <!-- Tower 1 -->
+            <LinearLayout
+                android:id="@+id/tower1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_marginTop="300dp"
+                android:gravity="bottom|center_horizontal">
+                <!-- Disks will be dynamically added here -->
+            </LinearLayout>
+
+            <!-- Tower 2 -->
+            <LinearLayout
+                android:id="@+id/tower2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_marginTop="300dp"
+                android:gravity="bottom|center_horizontal">
+                <!-- Disks will be dynamically added here -->
+            </LinearLayout>
+
+            <!-- Tower 3 -->
+            <LinearLayout
+                android:id="@+id/tower3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_marginTop="300dp"
+                android:gravity="bottom|center_horizontal">
+                <!-- Disks will be dynamically added here -->
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

@@ -31,3 +31,23 @@ google-services.json
 
 # Android Profiling
 *.hprof
+/settings.gradle.kts
+/app/proguard-rules.pro
+/gradle/libs.versions.toml
+/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp
+/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp
+/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp
+/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp
+/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp
+/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp
+/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp
+/app/src/main/res/mipmap-xhdpi/ic_launcher.webp
+/app/src/main/res/mipmap-mdpi/ic_launcher.webp
+/app/src/main/res/mipmap-hdpi/ic_launcher.webp
+/gradlew.bat
+/gradlew
+/gradle/wrapper/gradle-wrapper.properties
+/gradle/wrapper/gradle-wrapper.jar
+/gradle.properties
+/build.gradle.kts
+/app/build.gradle.kts

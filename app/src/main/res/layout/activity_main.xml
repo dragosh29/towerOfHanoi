@@ -1,0 +1,63 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- Background ImageView -->
+    <ImageView
+        android:layout_marginTop="66dp"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="322dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/spike_background"/>
+
+    <!-- Other Views -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <!-- TextView -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Welcome to Tower of Hanoi"
+            android:textSize="24sp" />
+
+        <!-- Buttons -->
+        <Button
+            android:id="@+id/btnPlayGame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:textSize="20dp"
+            android:text="Play game"
+            android:background="@drawable/rounded_button"/>
+
+        <Button
+            android:id="@+id/btnStats"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:textSize="20dp"
+            android:text="See your records"
+            android:background="@drawable/rounded_button"/>
+
+        <Button
+            android:id="@+id/btnWiki"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:textSize="20dp"
+            android:background="@drawable/rounded_button"
+            android:text="Learn about the game" />
+
+    </LinearLayout>
+
+</FrameLayout>
